@@ -1,0 +1,214 @@
+body {
+	background-image: url(http://www.smaizys.lt/lib/images/back.jpg);
+	background-repeat: repeat;	
+}
+/* Wrapper CSS style */
+#main { 
+	background-color: white;
+	width: 900px; 
+	margin: 0 auto; 
+	float:left;
+}
+/* Header CSS style */
+
+#header {
+	height:200px;
+	background-color:#f0f0f0;
+	background-image: url(http://www.smaizys.lt/lib/images/header.jpg);
+}
+#homelink, #homelink a{
+	margin:20px;
+	font-size:30pt;
+	float:left;
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+	font-variant: small-caps;
+	font-stretch: wider;
+}
+#addnewlink , #addnewlink  a {
+	margin:10px;
+	float:right;
+	font-size:18pt;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;	
+}
+#addnewlink a:hover, #homelink a:hover  {
+	text-decoration:underline;
+}
+/* CcontentCSS style */
+#content {
+	width:750px;
+	float:left;
+}
+#pages {
+	float:left;
+	font-size:14pt;
+	text-decoration:none;
+	font-weight:bold;
+	font-stretch:wider;
+	text-align: center;
+	margin: 0 0 20px 100px;
+}
+#pages a {
+	text-decoration:none;
+	color: #035e80;
+}
+.icon {
+	
+}
+.form {
+	margin-left:100px;
+	margin-top:20px;
+	max-width:350px;
+}
+.dropdown {
+	float:right;
+	width: 320px;
+}
+.button {
+	background-color: #c5e1ec;
+	border-width: 1px;
+	border-color: #050505;
+}
+.input {
+	background-color: #c5e1ec;
+	border-color: #050505;
+	border-width: 1px;
+	float:right;
+}
+/* Sidebar CSS style */
+#sidebar {
+	float:right;
+	width:150px;
+	text-align:left;	
+}
+#sidebar h2 {
+	font-size:18pt;
+	font-color: #050505;
+	text-align: center;
+	text-decoration: none;
+}
+#sidebar ul {
+	display:list-item;
+	list-style-type:none;
+	margin-left:-15px;
+	margin-top:-5px;
+	padding-bottom:5px;
+}
+#sidebar a {
+	text-align:left;
+	text-decoration:none;
+	font-size:14pt;
+	line-height:1.2em;
+	color: #035e80;
+}
+#sidebar a:hover{
+	text-decoration:underline;
+}
+/* FooterCSS style */
+#footer {
+	width: 900px; 
+	margin: 0 auto; 
+	float:left;
+	height:50x;
+	background-color:#333333;
+	text-align:center;
+	color:white;
+}
+
+/* Main view table styling */
+table.main_table {
+	text-align: center;
+	width: 720px;
+	margin:20px;
+	border-width: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	border-style: outset outset outset outset;
+	border-color: gray gray gray gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.main_table th {
+	border-width: thin thin thin thin;
+	padding: 4px 4px 4px 4px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.main_table td {
+	border-width: thin thin thin thin;
+	padding: 4px 4px 4px 4px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.main_table a {
+	text-decoration: none;
+	color:#050505;
+}
+table.main_table a:hover {
+	text-decoration:underline;
+	color:#050106;
+} 
+td.id {
+	width:40px;
+}
+td.category {
+	width:100px;
+}
+td.title {
+	width:500px;
+}
+td.actions {
+	width:80px;
+}
+td.t_align {
+	text-align:left;
+}
+/* Item More table styling */
+table.more_table {
+	width: 700px;
+	max-width:720px;
+	text-align:center;
+	margin: 20px;
+	border-width: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	border-style: outset outset outset outset;
+	border-color: gray gray gray gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.more_table th {
+	border-width: thin thin thin thin;
+	padding: 4px 4px 4px 4px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.more_table td {
+	border-width: thin thin thin thin;
+	padding: 4px 4px 4px 4px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.more_table_desc {
+	width: 500px;
+	max-width:700px;
+	text-align:justify;
+	margin: 20px;	
+}
+table.more_table a {
+	text-decoration: none;
+	color:#050505;
+}
+table.more_table a:hover {
+	text-decoration:underline;
+	color:#050106;
+} 

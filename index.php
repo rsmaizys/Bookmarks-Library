@@ -23,7 +23,7 @@
 | NO TRAILING SLASH!
 |
 */
-	$system_folder = "systemas";
+	$system_folder = "system";
 
 /*
 |---------------------------------------------------------------
