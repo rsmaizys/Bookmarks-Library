@@ -7,7 +7,7 @@
 	<div id="main">
 		<div id="header">
                     <div id="homelink">
-                        <a href="<?php echo base_url().'index.php/'; ?>" > <?php echo $title; ?> </a>
+                        <a href="<?php echo base_url(); ?>" > Bookmarks-Library </a>
                     </div>
                     <div id="addnewlink">
                         <a href="<?php echo base_url().'index.php/item/add'; ?>" > Add new!</a>

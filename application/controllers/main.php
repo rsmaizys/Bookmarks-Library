@@ -7,28 +7,26 @@ class Main extends Controller {
 
 	function Main()
 	{
-		parent::Controller();
-		$this->load->model('main_model');
-		$this->data['category'] = $this->category;
-		$this->data['title'] = "Bookmarks and Favorites";
-		$this->data['footer'] = "Ričardas Šmaižys";
-		$this->data['categories'] = $this->main_model->get_categories();				
+            parent::Controller();
+            $this->load->model('main_model');
+            $this->data['category'] = $this->category;
+            $this->data['categories'] = $this->main_model->get_categories();
 	}
 
 	function index()
 	{
-		$this->load->library('pagination');
-		$this->load->library('table');
-		
-		$config['full_tag_open'] = '<div id="pages">';
-                $config['full_tag_close'] = '</div>';
-		$config['base_url'] = base_url().'index.php/main/index/';
-		$config['total_rows'] = $this->main_model->item_rows();
-		$config['per_page'] = '12';
-		$this->pagination->initialize($config);
-		
-		$this->data['items'] = $this->main_model->get_items($config['per_page'], $this->uri->segment(3));
-		$this->load->view('main_view', $this->data);
+            $this->load->library('pagination');
+            $this->load->library('table');
+
+            $config['full_tag_open'] = '<div id="pages">';
+            $config['full_tag_close'] = '</div>';
+            $config['base_url'] = base_url().'index.php/main/index/';
+            $config['total_rows'] = $this->main_model->item_rows();
+            $config['per_page'] = '12';
+            $this->pagination->initialize($config);
+
+            $this->data['items'] = $this->main_model->get_items($config['per_page'], $this->uri->segment(3));
+            $this->load->view('main_view', $this->data);
 	}
 	function category($selected_category)
 	{
